@@ -1,0 +1,65 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+    width: 100%;
+    height: 2em;
+    background-color: black;
+    color: white;
+    font-size: 14pt;
+}
+div
+{
+  overflow: auto;
+}
+h3
+{
+text-align: center;
+font-size: 2em;
+
+}
+table  
+{
+table-layout: fixed;
+
+}
+table  #big
+{
+   border: 1px solid black; 
+   width:70%;
+   height: 20%;
+   
+ //  max-width: 600px;
+}
+table #small
+{
+   border: 1px solid black; 
+}
+.ok 
+{
+    width: 20px;
+   
+}
+a.back
+{
+text-decoration: none;
+color: whitesmoke;
+float: right;
+}
+
+.kefalida th
+{
+background-color: greenyellow;    
+
+}
+.kefalida #small
+{
+    width: 13%;
+}
+.kefalida #big
+{
+    width: 45%;
+}

@@ -1,0 +1,193 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:whitesmoke;
+    color: black;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.menu ul li {
+    float: right;
+}
+.menu ul li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.logout:hover{
+    background-color: red;
+}
+.active, .logout a, .dropbtn
+{
+color: white;    
+}
+
+.tbl th
+{
+   height: 40px;
+    color: white;
+    text-align: center;
+    background-color:black; 
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+li.dropdown_customer {
+    display: block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown_customer:hover .dropdown-content {
+    display: block;
+   
+}
+.db
+{
+    width: 70%;
+    margin-bottom: 40px;
+}
+.db table
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.db tr
+{ 
+    text-align: center;   
+}
+ .db  td
+ {
+    border: 1px solid black;
+    background-color: gainsboro;
+    padding: 14px 16px;
+    width: 120px;  
+ }
+ 
+ #table
+ {
+  height: 20%;
+  background-color: black;   
+ }
+ .line a
+ {
+  text-decoration: none;
+  color: red;
+ }
+ .feedback
+ {
+     width:50%;
+     display:inline-block;
+    margin-right: 10px;
+    position: absolute;
+     
+ }
+.feedback fieldset
+{
+    background-color: gainsboro;
+    display: inline-table;
+    width: 60%;
+}
+.feedback input{
+    width: 98%;
+  
+}
+.feedback #button 
+{
+margin: 20px;
+width: 40%;
+padding: 20px;
+background-color: black;    
+}
+.feedback legend
+{
+    background-color:gainsboro;
+    margin-bottom: 10px;
+}
+.feedback input
+{
+    background-color: black;
+    color: green;
+    height: 30px;
+}
+#new-user
+{
+    
+    display: none;
+    margin-top: 40px;
+    margin-right: 10px;
+    float: right;
+    width: 40%;
+    background-color: gainsboro;
+}
+#new-user fieldset, select
+{
+    width: 100%;
+    background-color: ghostwhite;
+    display: block;
+}
+#new-user fieldset input, select
+{
+    width: 100%;
+    background-color: gainsboro;
+    height: 40px;
+}
+.ok
+{
+    width: 20px;
+}
+#del
+{
+   display: none;
+    margin-top: 40px;
+    width: 40%;
+    background-color: gainsboro;  
+    float: right;
+    margin-right: 10px;
+}
+.new
+{
+float: right;
+margin-top: 320px;
+display:inline-block;
+position: absolute;
+}
+.new button
+{
+    width: 200px;
+    height: 120px;
+    background-color: gainsboro;
+}

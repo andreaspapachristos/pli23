@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+
+    background-color: beige;
+}
+table tr
+{
+    color: green;
+    background-color: black;
+    width: 20%;
+}
+table td
+{
+    padding: 20px;
+}
+ul li {
+    float: right;
+
+}
+ul li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+ul li:hover
+{
+background-color: greenyellow;    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+header
+{
+    height: 60px;
+
+    background-color: black;
+}
+#esoterikos td
+{
+    width: 40px;
+}
